@@ -1,9 +1,54 @@
 
 
+*{
+    padding: 0px;
+    margin: 0px;
+
+    font-family: Roboto arial;
+}
 
 
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header li{
+    padding-left: 10px;
+    padding-top: 30px;
+}
 
 #hero{
+    height: 500px;
     background-image: url("Images/background_image.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid green;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+#hero img{
+    width: 150px;
+    height: auto;
+    margin: 10px 0;
 }
